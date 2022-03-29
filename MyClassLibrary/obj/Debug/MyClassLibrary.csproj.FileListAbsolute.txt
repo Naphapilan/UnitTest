@@ -4,9 +4,3 @@ C:\Users\saran\source\repos\LABUnitTestProject\MyClassLibrary\obj\Debug\MyClassL
 C:\Users\saran\source\repos\LABUnitTestProject\MyClassLibrary\obj\Debug\MyClassLibrary.dll
 C:\Users\saran\source\repos\LABUnitTestProject\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
 C:\Users\saran\source\repos\LABUnitTestProject\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\LabUnitTestProject\MyClassLibrary\bin\Debug\MyClassLibrary.dll
-C:\Users\user\source\repos\LabUnitTestProject\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
-C:\Users\user\source\repos\LabUnitTestProject\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.AssemblyReference.cache
-C:\Users\user\source\repos\LabUnitTestProject\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\LabUnitTestProject\MyClassLibrary\obj\Debug\MyClassLibrary.dll
-C:\Users\user\source\repos\LabUnitTestProject\MyClassLibrary\obj\Debug\MyClassLibrary.pdb

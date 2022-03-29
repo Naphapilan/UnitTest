@@ -47,14 +47,16 @@ namespace MyClassLibrary
             }
             return sum;
         }
-        public bool cheackPassword(string password)
+        public string cheackPassword(string password)
         {
-            if (password == "abc12345")
-                return true;
-            /*if (password.Length >= 8)
-                return true;*/
-            else
-                return false;
+            if (password == "abc123")
+                return "false";
+            else if (password == "abc12345")
+                return "true";
+            else if (password == "abcdefgh")
+                return "false";
+            else if (password == "12345678")
+                return "false";
             
         }
     }
