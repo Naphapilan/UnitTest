@@ -57,13 +57,13 @@ namespace LABUnitTestProject
         public void Test_Assignment_4()
         {
             AssignmentClass ac = new AssignmentClass();
-            bool password = ac.CheackPassword("abc123");
+            bool password = ac.CheckPassword("abc123");
             Assert.AreEqual(false, password);
-            password = ac.CheackPassword("abc12345");
+            password = ac.CheckPassword("abc12345");
             Assert.AreEqual(true, password);
-            password = ac.CheackPassword("abcdefgh");
+            password = ac.CheckPassword("abcdefgh");
             Assert.AreEqual(false, password);
-            password = ac.CheackPassword("12345678");
+            password = ac.CheckPassword("12345678");
             Assert.AreEqual(false, password);
         }
     }

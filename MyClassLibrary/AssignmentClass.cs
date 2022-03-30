@@ -10,7 +10,7 @@ namespace MyClassLibrary
     {
         public string gradeCalculate(int score)
         {
-            /// ข้อ 1 ผ่าน
+            // ข้อ 1 ผ่าน
             if (score > 100)
                 return "A";
             else if (score < 0)
@@ -25,11 +25,11 @@ namespace MyClassLibrary
                 return "D";
             else
                 return "F";
-            
+
         }
         public double getDistance(int x1, int y1, int x2, int y2)
         {
-            /// ข้อ 2 ผ่าน
+            // ข้อ 2 ผ่าน
             double x = x2 - x1;
             double y = y2 - y1;
             double sum = Math.Pow(x, 2) + Math.Pow(y, 2);
@@ -38,7 +38,7 @@ namespace MyClassLibrary
         }
         public int getFactorial(int n)
         {
-            /// ข้อ 3 ผ่าน
+            // ข้อ 3 ผ่าน
             int i;
             int sum = 1;
             for (i = 1; i <= n; i++)
@@ -47,12 +47,13 @@ namespace MyClassLibrary
             }
             return sum;
         }
-        public bool CheackPassword(string password)
+
+        public bool CheckPassword(string password)
         {
-            if (password.Length == 8 && password == "abc12345")
-                return true;               
+            if (password.Length >= 8 && password == "abc12345")
+                return true;
             else
-                return false;            
+                return false;
         }
     }
 }
